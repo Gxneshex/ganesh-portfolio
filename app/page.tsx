@@ -12,7 +12,7 @@ import { portfolioData } from '@/app/data/portfolio';
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-slate-900 text-white">
+    <main className="min-h-screen bg-red-950/20 text-white">
       <Navbar />
       <Hero />
       <About />

@@ -20,13 +20,13 @@ export default function Certifications() {
     <section id="certifications" className="py-24 px-4">
       <div ref={ref} className={`max-w-4xl mx-auto transition-all duration-700 ${visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
         <h2 className="text-3xl sm:text-4xl font-bold mb-2">
-          <span className="bg-gradient-to-r from-indigo-400 to-cyan-400 bg-clip-text text-transparent">Certifications</span>
+          <span className="bg-gradient-to-r from-red-400 to-orange-400 bg-clip-text text-transparent">Certifications</span>
         </h2>
-        <div className="w-20 h-1 bg-gradient-to-r from-indigo-500 to-cyan-500 rounded mb-12" />
+        <div className="w-20 h-1 bg-gradient-to-r from-red-500 to-orange-500 rounded mb-12" />
 
         <div className="grid md:grid-cols-2 gap-6">
           {portfolioData.certifications.map((cert, i) => (
-            <div key={i} className="bg-slate-800/30 rounded-xl p-6 border border-slate-700 hover:border-indigo-500/50 transition-all hover:scale-[1.02]">
+            <div key={i} className="bg-red-950/30 rounded-xl p-6 border border-red-900 hover:border-red-500/50 transition-all hover:scale-[1.02]">
               <div className="flex items-start gap-4 mb-4">
                 <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-amber-500/20 to-orange-500/20 border border-amber-500/20 flex items-center justify-center flex-shrink-0">
                   <svg className="w-6 h-6 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -35,21 +35,21 @@ export default function Certifications() {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-white mb-1">{cert.name}</h3>
-                  <p className="text-indigo-400 text-sm font-medium">{cert.issuer}</p>
+                  <p className="text-red-400 text-sm font-medium">{cert.issuer}</p>
                 </div>
               </div>
 
-              <p className="text-slate-400 text-sm mb-4">{cert.description}</p>
+              <p className="text-red-200/60 text-sm mb-4">{cert.description}</p>
 
               <div className="flex items-center justify-between">
-                <span className="px-3 py-1 bg-slate-700/50 text-slate-400 text-xs rounded-full">
+                <span className="px-3 py-1 bg-red-900/50 text-red-200/60 text-xs rounded-full">
                   {cert.date}
                 </span>
                 {cert.credentialUrl && (
                   <a href={cert.credentialUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-xs text-indigo-400 hover:text-indigo-300 transition-colors flex items-center gap-1">
+                    className="text-xs text-red-400 hover:text-red-300 transition-colors flex items-center gap-1">
                     View Credential
                     <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
