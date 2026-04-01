@@ -12,6 +12,7 @@ export const portfolioData = {
   location: "Trichy, Tamil Nadu, India",
   linkedin: "https://www.linkedin.com/in/r-ganesh-",
   github: "https://github.com/Gxneshex",
+  leetcode: "",
   languagesKnown: "English, Hindi, Tamil, German, Malayalam",
   twitter: "https://x.com/GXNESH_69",
 
