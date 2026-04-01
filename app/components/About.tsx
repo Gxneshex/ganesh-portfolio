@@ -17,35 +17,35 @@ export default function About() {
   }, []);
 
   return (
-    <section id="about" className="py-24 px-4 bg-red-950/30">
+    <section id="about" className="py-24 px-4 bg-white">
       <div ref={ref} className={`max-w-4xl mx-auto transition-all duration-700 ${visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
         <h2 className="text-3xl sm:text-4xl font-bold mb-2">
-          <span className="bg-gradient-to-r from-red-400 to-orange-400 bg-clip-text text-transparent">About Me</span>
+          <span className="bg-gradient-to-r from-stone-700 to-stone-800 bg-clip-text text-transparent">About Me</span>
         </h2>
-        <div className="w-20 h-1 bg-gradient-to-r from-red-500 to-orange-500 rounded mb-8" />
+        <div className="w-20 h-1 bg-gradient-to-r from-stone-600 to-stone-700 rounded mb-8" />
 
         <div className="grid md:grid-cols-3 gap-8">
           <div className="md:col-span-2">
-            <p className="text-red-100/80 text-lg leading-relaxed whitespace-pre-line">
+            <p className="text-stone-600 text-lg leading-relaxed whitespace-pre-line">
               A motivated and detail-oriented pre-final year Artificial Intelligence and Machine Learning student, currently building a strong foundation in machine learning and AI. Passionate about exploring innovative technologies and contributing to impactful projects in dynamic environments. I am particularly interested in the intersection of AI and finance, with a long-term goal of developing machine learning solutions for financial forecasting, fraud detection, and investment optimization. Committed to learning from experiences, working with diverse datasets, and developing expertise in cutting-edge AI technologies. Eager to collaborate with forward-thinking individuals and grow continuously, both personally and professionally.
             </p>
           </div>
 
           <div className="space-y-4">
-            <div className="bg-red-950/50 rounded-xl p-5 border border-red-900">
-              <h3 className="text-red-200/60 text-sm uppercase tracking-wider mb-3">Quick Facts</h3>
+            <div className="bg-stone-50 rounded-xl p-5 border border-stone-200">
+              <h3 className="text-stone-400 text-sm uppercase tracking-wider mb-3">Quick Facts</h3>
               <div className="space-y-3">
                 <div>
-                  <p className="text-red-200/40 text-sm">Experience</p>
-                  <p className="text-white font-medium">Fresher</p>
+                  <p className="text-stone-400 text-sm">Experience</p>
+                  <p className="text-stone-800 font-medium">Fresher</p>
                 </div>
                 <div>
-                  <p className="text-red-200/40 text-sm">Location</p>
-                  <p className="text-white font-medium">Trichy, Tamil Nadu, India </p>
+                  <p className="text-stone-400 text-sm">Location</p>
+                  <p className="text-stone-800 font-medium">Trichy, Tamil Nadu, India </p>
                 </div>
                 <div>
-                  <p className="text-red-200/40 text-sm">Education</p>
-                  <p className="text-white font-medium">B.Tech AIML</p>
+                  <p className="text-stone-400 text-sm">Education</p>
+                  <p className="text-stone-800 font-medium">B.Tech AIML</p>
                 </div>
               </div>
             </div>
