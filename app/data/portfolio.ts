@@ -16,15 +16,15 @@ export const portfolioData = {
   twitter: "https://x.com/GXNESH_69",
 
   // Profile Summary (shown in About section)
-  summary: `A motivated and detail-oriented pre-final year Artificial Intelligence and Machine Learning student, currently building a strong foundation in machine learning and AI. Passionate about exploring innovative technologies and contributing to impactful projects in dynamic environments. I am particularly interested in the intersection of AI and finance, with a long-term goal of developing machine learning solutions for financial forecasting, fraud detection, and investment optimization. Committed to learning from experiences, working with diverse datasets, and developing expertise in cutting-edge AI technologies. Eager to collaborate with forward-thinking individuals and grow continuously, both personally and professionally.`,
+  summary: `Pre-final year AI & ML student at DSU, building at the intersection of responsible AI and finance. I research fairness-aware machine learning — my credit scoring system achieved 67.3% algorithmic bias reduction while improving model accuracy, proving fairness and performance aren't trade-offs. Long-term, I'm working toward applying ML to financial systems: fraud detection, credit risk, and investment optimization. Currently exploring the AI-Finance overlap through projects, certifications, and a planned MBA in FinTech.`,
 
   // Skills — grouped by category
-   skills: {
+  skills: {
     "Languages": ["Python", "C", "C++", "SQL", "Javascript", "HTML", "CSS"],
-    "Frontend": ["React.js", "JavaScript", "TypeScript", "HTML5", "CSS3", "Next.js"],
-    "Backend": ["Java", "REST APIs", "Microservices", "Node.js"],
+    "Frontend": ["React.js", "Javascript", "TypeScript", "HTML5", "CSS3", "Next.js"],
+    "Backend": ["Java", "REST APIs", "Node.js"],
     "Database": ["MySQL", "MongoDB", "PostgreSQL"],
-    "Tools & Cloud": ["Git", "GitHub", "AWS", "VS Code"],
+    "Tools & Cloud": ["Git", "GitHub", "VS Code"],
     "concepts": ["Bias Mitigation", "Explainable AI (XAI)", "Financial"],
   },
   // Work Experience
@@ -66,7 +66,7 @@ export const portfolioData = {
         "Collaborated with cross-functional team members to ensure seamless coordination and workflow",
         "Completed individual tasks with a high on-time and accuracy rate, reflecting strong attention to detail",
       ],
-      technologies: ["React.js", "Spring Boot", "MySQL", "Java"],
+      technologies: ["Task Management", "Project Coordination", "Reporting", "Workflow Optimization"],
     },
   ],
 
@@ -76,7 +76,7 @@ export const portfolioData = {
       institution: "Dhanalakshmi Srinivasan University School of Engineering and Technology",
       degree: "Bachelor of Technology in Artificial Intelligence and Machine Learning",
       grade: "7.52 CGPA",
-      period: "2023 – 2027 (Expected)",
+      period: "2023 – 2027",
       location: "Trichy, Tamil Nadu",
       highlights: [
         "Active participant in technical events and workshops",
@@ -86,13 +86,21 @@ export const portfolioData = {
     {
       institution: "Kendriya Vidyalaya No.1,trichy",
       degree: "HSC (Higher Secondary Certificate)",
-      grade: "66 %",
-      period: "2011 – 2023",
+      grade: "",
+      period: "2021 – 2023",
       location: "Trichy, Tamil Nadu",
       highlights: [
         "Science stream with Computer Science",
         "Built foundational programming skills",
       ],
+    },
+    {
+      institution: "Kendriya Vidyalaya No.1,trichy",
+      degree: "SSLC (Secondary School Leaving Certificate)",
+      grade: " ",
+      period: "2011 – 2020",
+      location: "Trichy, Tamil Nadu",
+      highlights: [],
     },
   ],
 
@@ -106,7 +114,7 @@ export const portfolioData = {
       credentialId: "",
       credentialUrl: "https://www.skills.google/course_templates/723?catalog_rank={rank%3A1%2Cnum_filters%3A0%2Chas_search%3Atrue}&search_id=72519306",
     },
-     {
+    {
       name: "Prepare Data for ML APIs on Google Cloud Skill Badge",
       issuer: "Google Cloud Skills Boost",
       date: "Oct 2025",
@@ -114,7 +122,7 @@ export const portfolioData = {
       credentialId: "5901f214-c2c0-4515-b1a5-8cc48f066942",
       credentialUrl: "https://www.credly.com/badges/5901f214-c2c0-4515-b1a5-8cc48f066942/linked_in_profile",
     },
-       {
+    {
       name: "MongoDB Basics for Students",
       issuer: "MongoDB University",
       date: "July 2025",
@@ -122,7 +130,7 @@ export const portfolioData = {
       credentialId: "2777e871-4e4e-4bfc-a407-4208fda4d7bd",
       credentialUrl: "https://www.credly.com/badges/2777e871-4e4e-4bfc-a407-4208fda4d7bd",
     },
-         {
+    {
       name: "IBM Machine Learning Specialist- Associate",
       issuer: "IBM",
       date: "June 2025",
@@ -130,7 +138,7 @@ export const portfolioData = {
       credentialId: "eb365fba-7a07-47e3-a28c-ef3a6c7a4277",
       credentialUrl: "https://www.credly.com/badges/eb365fba-7a07-47e3-a28c-ef3a6c7a4277/linked_in",
     },
-        {
+    {
       name: "Deloitte Australia - Technology  Job Simulation",
       issuer: "FORAGE",
       date: "June 2025",
@@ -138,7 +146,7 @@ export const portfolioData = {
       credentialId: "CSoZvHLfH3293Wdtv",
       credentialUrl: "https://www.credly.com/badges/eb365fba-7a07-47e3-a28c-ef3a6c7a4277/linked_in",
     },
-        {
+    {
       name: "Introduction to Generative AI",
       issuer: "Google Cloud Skills Boost",
       date: "Sept 2024",
@@ -146,7 +154,7 @@ export const portfolioData = {
       credentialId: "d8adb425-0e03-417a-b506-a59a69a82e5b",
       credentialUrl: "https://www.credly.com/badges/d8adb425-0e03-417a-b506-a59a69a82e5b/linked_in",
     },
-            {
+    {
       name: "Tata Group - Data Visualisation: Empowering Business with Effective Insights Job Simulation",
       issuer: "FORAGE",
       date: "Sept 2024",
@@ -154,7 +162,7 @@ export const portfolioData = {
       credentialId: "3KBNEceQPu3yTGFqH",
       credentialUrl: "https://www.forage.com/badges/3KBNEceQPu3yTGFqH/linked_in",
     },
-              {
+    {
       name: "Prompt Design in Vertex AI Skill Badge",
       issuer: "Google Cloud Skills Boost",
       date: "Sept 2024",
@@ -162,7 +170,7 @@ export const portfolioData = {
       credentialId: "e31e7ef3-d029-4e4e-92b7-1330e1f35698",
       credentialUrl: "https://www.forage.com/badges/e31e7ef3-d029-4e4e-92b7-1330e1f35698/linked_in",
     },
-           {
+    {
       name: "Accenture North America - Data Analytics and Visualization ",
       issuer: "FORAGE",
       date: "Sept 2024",
@@ -170,7 +178,7 @@ export const portfolioData = {
       credentialId: "Rj2dxLKqPc9s3iWre",
       credentialUrl: "https://www.forage.com/badges/Rj2dxLKqPc9s3iWre/linked_in",
     },
-          {
+    {
       name: "JPMorgan Chase - Investment Banking job simulation internship ",
       issuer: "FORAGE",
       date: "Sept 2024",
@@ -193,59 +201,46 @@ export const portfolioData = {
     {
       name: "Bias-Aware Credit Scoring System Using Fair Machine Learning",
       description: "Built a production-ready fairness-aware credit risk scoring system that challenges the conventional assumption that bias mitigation degrades model accuracy. Achieved 67.3% algorithmic bias reduction while IMPROVING accuracy from 80.80% to 80.83%, proving fairness and performance are not mutually exclusive in high-stakes financial AI.",
-       highlights: [
+      highlights: [
         "Implemented bias mitigation techniques to reduce algorithmic bias in credit scoring",
         "Achieved significant bias reduction while improving model accuracy",
         "Demonstrated that fairness and performance can coexist in financial AI applications",
       ],
-      technologies: ["Scikit-learn", "Python", "Fairlearn", "Pandas", "NumPy","Matplotlib","SHAP","FLASK"],
-      link: "bias-aware-credit-risk-scoring.onrender.com",
-      github: " github.com/Gxneshex/bias-aware-credit-risk",
-      status: "Live",
-    },
-     {
-      name: "DSU AI&ML Department Portal",
-      description: "Developed a comprehensive portal for the AI&ML department at DSU, enhancing communication and resource access for faculty and students. The portal integrates with existing systems to provide a seamless user experience.",
-       highlights: [
-        "Led the development of a feature-rich portal for the AI&ML department",
-        "Integrated with existing systems to ensure data consistency and accessibility",
-        "Enhanced user experience through intuitive design and responsive layout",
-      ],
-      technologies: [ "Node.js", "Express.js", "SQLite3", "HTML5", "CSS3", "JavaScript", "Render.com" ],
-      link: "https://dsu-aiml-portal-1.onrender.com/",
-      github: "https://github.com/Gxneshex/dsu-aiml-portal",
+      technologies: ["Scikit-learn", "Python", "Fairlearn", "Pandas", "NumPy", "Matplotlib", "SHAP", "FLASK"],
+      link: "https://bias-aware-credit-risk-scoring.onrender.com/",
+      github: "https://github.com/Gxneshex/bias-aware-credit-risk",
       status: "Live",
     },
     {
       name: "DSU AI&ML Department Portal",
       description: "Developed a comprehensive portal for the AI&ML department at DSU, enhancing communication and resource access for faculty and students. The portal integrates with existing systems to provide a seamless user experience.",
-       highlights: [
+      highlights: [
         "Led the development of a feature-rich portal for the AI&ML department",
         "Integrated with existing systems to ensure data consistency and accessibility",
         "Enhanced user experience through intuitive design and responsive layout",
       ],
-      technologies: [ "Node.js", "Express.js", "SQLite3", "HTML5", "CSS3", "JavaScript", "Render.com" ],
-      link: "https://dsu-aiml-portal-1.onrender.com/",
+      technologies: ["Node.js", "Express.js", "SQLite3", "HTML5", "CSS3", "JavaScript", "Render.com"],
+      link: "https://dsu-aiml-portal.vercel.app/",
       github: "https://github.com/Gxneshex/dsu-aiml-portal",
       status: "Live",
     },
-     {
+    {
       name: "ETHICAL AI: BIAS DETECTION IN MACHINE LEARNING",
       description: "Explored ethical considerations in machine learning, focusing on bias detection and mitigation techniques.",
-       highlights: [
+      highlights: [
         "Conducted research on various bias detection methods in machine learning models",
       ],
-      technologies: [ "Python", "Scikit-learn", "Fairlearn", "Pandas", "NumPy","Matplotlib","SHAP"],
+      technologies: ["Python", "Scikit-learn", "Fairlearn", "Pandas", "NumPy", "Matplotlib", "SHAP"],
     },
-     {
+    {
       name: "Credit Risk AI",
       description: "Developed a credit risk assessment system using machine learning techniques to improve accuracy and fairness in loan approval decisions.",
-       highlights: [
+      highlights: [
         "Implemented machine learning models for credit risk prediction",
         "Enhanced communication and resource access for faculty and students",
         "Integrated with existing systems to provide a seamless user experience",
       ],
-      technologies: [ "Python", "Scikit-learn", "Fairlearn", "Pandas", "NumPy","Matplotlib","SHAP", "HTML5" ,"React.js", "Next.js", "SQLite3" ],
+      technologies: ["Python", "Scikit-learn", "Fairlearn", "Pandas", "NumPy", "Matplotlib", "SHAP", "HTML5", "React.js", "Next.js", "SQLite3"],
       github: "https://github.com/Gxneshex/Credit-risk-AI",
     },
   ],
