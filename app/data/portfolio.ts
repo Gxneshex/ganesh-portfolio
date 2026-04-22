@@ -219,7 +219,7 @@ export const portfolioData = {
         "Integrated with existing systems to ensure data consistency and accessibility",
         "Enhanced user experience through intuitive design and responsive layout",
       ],
-      technologies: ["Node.js", "Express.js", "SQLite3", "HTML5", "CSS3", "JavaScript", "Render.com"],
+      technologies: ["Node.js", "Express.js", "SQLite3", "HTML5", "CSS3", "JavaScript", "Render.com", "Vercel"],
       link: "https://dsu-aiml-portal.vercel.app/",
       github: "https://github.com/Gxneshex/dsu-aiml-portal",
       status: "Live",
